@@ -14,7 +14,7 @@ const Navbar = () => {
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#hero">restaurant</a></li>
+          <li class="active"><a href="#hero" >restaurant</a></li>
           <li><a href="#about">chef</a></li>
           <li><a href="#menu">menus</a></li>
           <li><a href="#events">galerie</a></li>
