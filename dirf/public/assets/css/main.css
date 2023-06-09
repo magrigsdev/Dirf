@@ -250,11 +250,14 @@ section {
   z-index: 997;
   height: 90px;
   border-bottom: 1px solid #fff;
+
+  /* text-transform: uppercase; */
 }
 
 @media (max-width: 575px) {
   .header {
     height: 70px;
+    /* text-transform: uppercase; */
   }
 }
 
@@ -307,6 +310,7 @@ section {
 @media (min-width: 1280px) {
   .navbar {
     padding: 0;
+    /* text-transform: uppercase; */
   }
 
   .navbar ul {
@@ -464,6 +468,7 @@ section {
     bottom: 0;
     transition: 0.3s;
     z-index: 9997;
+    /* text-transform: uppercase; */
   }
 
   .navbar ul {
