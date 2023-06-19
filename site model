@@ -1,1 +1,28 @@
 https://www.legourmetdeseze.com/
+import * as mdb from 'mdb-ui-kit'; // lib
+
+
+
+
+
+
+<li class="nav-item">
+                        <a class="nav-link" href="#">chef</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">menus</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">galerie</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">emporter</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">cadeaux</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">reservations</a>
+                        </li>
