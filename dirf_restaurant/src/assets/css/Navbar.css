@@ -1,0 +1,19 @@
+.navbar{
+    background-color: rgba(59, 68, 61, 0.452) !important;
+}
+
+.nav-item a:hover {
+    color:var(--mdb-success) !important;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out
+}
+
+.nav-item a{
+    text-transform: capitalize;
+}
+
+.nav-item .active{
+    color:var(--mdb-success) !important;
+    font-weight: 600;
+}

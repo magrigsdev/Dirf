@@ -1,10 +1,10 @@
 import React from 'react'
-import "../assets/Navbar.css"
+import "../assets/css/Navbar.css"
 function Navbar() {
   return (
     <>
       
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
   
   <div class="container-fluid">
    
@@ -30,13 +30,13 @@ function Navbar() {
           alt="MDB Logo"
           loading="lazy"
         />
-        <small>Dirf<span>.</span>restaurant</small>
+        <small className='text-dark'>Dirf<span className='text-secondaire'>.</span>Restaurant</small>
       </a>
 
-      <div className='justify-content-center'>
+      <div className='justify-content-center '>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
           <li class="nav-item">
-            <a class="nav-link" href="#">restaurant</a>
+            <a class="nav-link active" href="#">restaurant</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">chef</a>
