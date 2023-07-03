@@ -1,25 +1,22 @@
 import React from 'react'
 import Header from './Header'
+import Pictures from '../data/Pictures'
+
+
+
+
 
 function Restaurant() {
+ 
   return (
     <>
       <Header/>
-      <div class="container text-center">
-          <div class="row">
-            <div class="col">
-              Column
-            </div>
+      <h1 class="display-4 text-center">Dirf Restaurant</h1>
+        <p class="lead text-center">
+        Restaurant gastronomique étoilé au guide Michelin depuis 2002
+        </p>
+      <Pictures/>
 
-            <div class="col">
-              Column
-            </div>
-            
-            <div class="col">
-              Column
-            </div>
-          </div>
-      </div>
     </>
     
 
