@@ -8,13 +8,14 @@ import msig from "../assets/pictures/menus/m_signature.jpg";
 function Menus() {
     const card = {width: '18rem',}
     const ecart = {marginTop:'30px'}
+    const mb  = {marginBottom:'10px'}
   return (
     <>
         <div className='col'>
             <div class="container">
 
                 <div class="row">
-                    <div class="col">
+                    <div class="col-lg-4 col-md-4 col-sm-10" style={mb}>
                         <div class="card" style={card}>
                             <img src={mdec} class="card-img-top" alt="..."/>
                             <div class="card-body">
@@ -25,7 +26,7 @@ function Menus() {
                         </div>
                     </div>
                   
-                    <div class="col">
+                    <div class="col-lg-4 col-md-4 col-sm-10" style={mb}>
                         <div class="card" style={card}>
                             <img src={mdeg} class="card-img-top" alt="..."/>
                             <div class="card-body">
@@ -36,7 +37,7 @@ function Menus() {
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col-lg-4 col-md-4 col-sm-10" style={mb}>
                         <div class="card" style={card}>
                             <img src={msig} class="card-img-top" alt="..."/>
                             <div class="card-body">
@@ -49,7 +50,7 @@ function Menus() {
                         </div>
                     </div>
 
-                    <div class="col" style={ecart}>
+                    <div class="col-lg-4 col-md-4 col-sm-10" style={mb}>
                         <div class="card" style={card}>
                             <img src={mgou} class="card-img-top" alt="..."/>
                             <div class="card-body">

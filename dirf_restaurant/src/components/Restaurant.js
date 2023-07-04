@@ -41,11 +41,11 @@ function Restaurant() {
 
       <div class="container" style={chef}>
         <div class="row py-10">
-          <div class="col">
-          <img src="https://images8.alphacoders.com/818/thumbbig-818929.webp" class="img-thumbnail" alt="..."/>
+          <div class="col-sm-5 col-md-6">
+              <img src="https://images8.alphacoders.com/818/thumbbig-818929.webp" class="img-thumbnail" alt="..."/>
           </div>
 
-          <div class="col" style={mycol}>
+          <div class="col-sm-4 col-md-4" style={mycol}>
             <h1 class="display-5">Nico kovnovitch</h1>
             <p class="lead">
               Chef étoilé depuis 2002 au guide Michelin, Nico Kovnovitch est également membre des Toques Blanches Lyonnaises.
@@ -61,7 +61,7 @@ function Restaurant() {
       <div class="container" style={chef}>
         <div class="row py-10">
           
-          <div class="col">
+          <div class="col-sm-5 col-md-6">
             <h1 class="display-6">Notre chef recommande</h1>
             <p class="lead">
             Le poulet rôti est un plat classique et délicieux qui fait saliver les papilles. 
@@ -71,7 +71,7 @@ function Restaurant() {
             <button type="button" class="btn btn-lg btn-outline-danger d-flex justify-content-center">Menus</button>            
           </div>
 
-          <div class="col">
+          <div class="col-sm-5 col-md-6">
             <img src= {pic5} class="img-thumbnail" alt="..."/>
           </div>
 
