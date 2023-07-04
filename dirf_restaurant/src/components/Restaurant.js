@@ -3,6 +3,7 @@ import Header from './Header'
 import Pictures from '../data/Pictures'
 
 import pic5 from '../assets/pictures/pic5.png'
+import Menus from '../data/Menus'
 
 
 
@@ -16,7 +17,8 @@ function Restaurant() {
   }
 
   const chef = {marginTop:'100px'}
-
+  const ecartBasse = {marginBottom:'30px'}
+  
 
 
 
@@ -73,6 +75,18 @@ function Restaurant() {
             <img src= {pic5} class="img-thumbnail" alt="..."/>
           </div>
 
+        </div>
+      </div>
+
+      <div class="container" style={chef}>
+        <div className='row' style={ecartBasse}>
+        <div class="col">
+            <h1 class="display-6 text-success text-center">Nos Menus</h1>            
+            </div>
+        </div>
+
+        <div class="row">
+              <Menus/>   
         </div>
       </div>
 
