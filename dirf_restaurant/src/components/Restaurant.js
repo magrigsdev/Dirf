@@ -80,14 +80,13 @@ function Restaurant() {
 
       <div class="container" style={chef}>
         <div className='row' style={ecartBasse}>
-        <div class="col">
-            <h1 class="display-6 text-success text-center">Nos Menus</h1>            
-            </div>
+          <div class="col">
+              <h1 class="display-6 text-success text-center">Nos Menus</h1>            
+              
+          </div> 
         </div>
-
-        <div class="row">
-              <Menus/>   
-        </div>
+        <Menus/>   
+        
       </div>
 
     </>
