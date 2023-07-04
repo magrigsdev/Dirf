@@ -4,7 +4,7 @@ import Pictures from '../data/Pictures'
 
 import pic5 from '../assets/pictures/pic5.png'
 import Menus from '../data/Menus'
-
+import person1 from '../assets/pictures/person1.jpg'
 
 
 
@@ -81,12 +81,38 @@ function Restaurant() {
       <div class="container" style={chef}>
         <div className='row' style={ecartBasse}>
           <div class="col">
-              <h1 class="display-6 text-success text-center">Nos Menus</h1>            
-              
+              <h1 class="display-6 text-success text-center">Nos Menus</h1>                
           </div> 
         </div>
         <Menus/>   
         
+      </div>
+
+      <div className='container' style={chef} >
+        <div class="col">
+              <h1 class="display-6 text-success text-center">Commentaire</h1>                
+        </div>
+
+        <div className='row d-flex justify-content-center'>
+          <div className='col-sm-2'>
+            <img src={person1} class="img-thumbnail" alt="..."/>
+          </div>        
+        </div>
+
+        <div className='row text-center' style={ecartBasse}>
+          <div className='col'>
+            <figure>
+              <blockquote class="blockquote">
+                <p>Dirf Restaurant  offre une expérience culinaire exceptionnelle. </p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                IT Manager <cite title="Source Title"> Laureat Banzouzi</cite>
+              </figcaption>
+            </figure>
+
+          </div>
+        </div>
+
       </div>
 
     </>
