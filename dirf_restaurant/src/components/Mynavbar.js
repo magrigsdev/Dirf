@@ -21,59 +21,8 @@ function Mynavbar() {
   // const location = useLocation()
   return (
     <>
-      <Router>
-        <Navbar expand="lg" className="bg-body-tertiary">
-          <Container fluid>
-            <Navbar.Brand href="#">Dirf Restaurant</Navbar.Brand>
-            <Navbar.Toggle aria-controls="navbarScroll" />
-            <Navbar.Collapse id="navbarScroll">
-              <Nav
-                className="me-auto my-2 my-lg-0"
-                style={{ maxHeight: '200px' }}
-                navbarScroll
-              >
-                <Nav.Link  >Restaurant</Nav.Link>
-                <Nav.Link >Chef</Nav.Link>
-                <Nav.Link  >Menus</Nav.Link>
-                <Nav.Link >Galeries</Nav.Link>
-                <Nav.Link  >Cadeau</Nav.Link>
-                <Nav.Link  >Emporter</Nav.Link>
-                  
-              </Nav>
-              <Form className="d-flex mr-10">
-                <Button variant="outline-success">Reservation</Button>
-              </Form>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
-
-          {/* <switch>
-            <Route exact path="/" component={Restaurant}/> 
-            <Route path="/pages/Pcadeau.js" component={Pcadeau}/> 
-            <Route path="/pages/Pchefs.js" component={Pchefs}/> 
-            <Route path="/pages/Pemporter.js" component={Pemporter}/> 
-            <Route path="/pages/Pgaleries.js"component={Pgaleries}/>  
-            <Route path="/pages/Pmenus.js" component={Pmenus}/> 
-          </switch> */}
-      </Router>
-    </>
-  )
-}
-
-export default Mynavbar
-
-// Nav.Link  as={Link} to={"/"}>Restaurant</Nav.Link>
-//                 <Nav.Link as={Link} to={"/pages/Pchefs.js"}>Chef</Nav.Link>
-//                 <Nav.Link as={Link} to={"/pages/Pmenus.js"} >Menus</Nav.Link>
-//                 <Nav.Link as={Link} to={'/pages/Pgaleries.js'} >Galeries</Nav.Link>
-//                 <Nav.Link as={Link} to={'/pages/Pcadeau.js'}  >Cadeau</Nav.Link>
-//                 <Nav.Link as={Link} to={'/pages/Pemporter.js'} >Emporter</Nav.Link>
-
-
-
-
-
-{/* <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid m-0">
                 <a class="navbar-brand" href="#">
                 <img src="https://th.bing.com/th/id/OIP.NE2zEeDwfsGKDte5HPgKfAAAAA?pid=ImgDet&rs=1" alt="" width="30" height="24"/>   
@@ -89,7 +38,7 @@ export default Mynavbar
                             <a class="nav-link active" aria-current="page" href="#">Restaurant</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" to="./pages/Pchefs.js">Chef</a>
+                            <a class="nav-link" href='#'>Chef</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Menus</a>
@@ -102,27 +51,63 @@ export default Mynavbar
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Cadeau</a>
-                        </li>
-                        
-
-                        {/* <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"/></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
                         </li> 
                         
                     </ul>
 
                     <form class="d-flex" role="search">
-                        {/* <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> 
+                        
                         <button class="btn btn-outline-success" type="submit">Reservation</button>
                     </form>
                 </div>
             </div>
-        </nav> */}
+        </nav> 
+      
+    </>
+  )
+}
+
+export default Mynavbar
+
+
+
+
+
+
+
+
+      // <Router>
+      //   <Navbar expand="lg" className="bg-body-tertiary">
+      //     <Container fluid>
+      //       <Navbar.Brand href="#">Dirf Restaurant</Navbar.Brand>
+      //       <Navbar.Toggle aria-controls="navbarScroll" />
+      //       <Navbar.Collapse id="navbarScroll">
+      //         <Nav
+      //           className="me-auto my-2 my-lg-0"
+      //           style={{ maxHeight: '200px' }}
+      //           navbarScroll
+      //         >
+      //           <Nav.Link  >Restaurant</Nav.Link>
+      //           <Nav.Link >Chef</Nav.Link>
+      //           <Nav.Link  >Menus</Nav.Link>
+      //           <Nav.Link >Galeries</Nav.Link>
+      //           <Nav.Link  >Cadeau</Nav.Link>
+      //           <Nav.Link  >Emporter</Nav.Link>
+                  
+      //         </Nav>
+      //         <Form className="d-flex mr-10">
+      //           <Button variant="outline-success">Reservation</Button>
+      //         </Form>
+      //       </Navbar.Collapse>
+      //     </Container>
+      //   </Navbar>
+
+      //     <switch>
+      //       <Route exact path="/" component={Restaurant}/> 
+      //       <Route path="/pages/Pcadeau.js" component={Pcadeau}/> 
+      //       <Route path="/pages/Pchefs.js" component={Pchefs}/> 
+      //       <Route path="/pages/Pemporter.js" component={Pemporter}/> 
+      //       <Route path="/pages/Pgaleries.js"component={Pgaleries}/>  
+      //       <Route path="/pages/Pmenus.js" component={Pmenus}/> 
+      //     </switch>
+      // </Router>

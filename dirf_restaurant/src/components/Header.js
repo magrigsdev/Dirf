@@ -7,7 +7,7 @@ function Header() {
   return (
    
     <>
-      <Mynavbar/>
+      <Mynavbar/> 
       <div className='container-fluid'>
             <div className='row w-auto myvideo'>       
                <video src={LE_GOURMET_DE_SEZE}  autoPlay loop muted/>
