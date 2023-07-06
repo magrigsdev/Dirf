@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Mynavbar from './Mynavbar'
 import LE_GOURMET_DE_SEZE  from "../assets/video/LE_GOURMET_DE_SEZE.mp4";
 import MyHeader from "../assets/css/MyHeader.css";
 
@@ -7,7 +7,7 @@ function Header() {
   return (
    
     <>
-      <Navbar/>
+      <Mynavbar/>
       <div className='container-fluid'>
             <div className='row w-auto myvideo'>       
                <video src={LE_GOURMET_DE_SEZE}  autoPlay loop muted/>
